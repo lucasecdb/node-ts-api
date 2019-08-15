@@ -6,8 +6,7 @@
     "prettier-graphql": "prettier --write 'graphql/**/*.graphql'",
     "lint": "tsc --noEmit --pretty && eslint --ext ts src",
     "start": "node dist/index.js",
-    "dev": "tsc-watch --onSuccess \"node ./dist/index.js\"",
-    "release": "release-it"
+    "dev": "tsc-watch --onSuccess \"node ./dist/index.js\""
   },
   "dependencies": {
     "apollo-server": "^2.8.1",
